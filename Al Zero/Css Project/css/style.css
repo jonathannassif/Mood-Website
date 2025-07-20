@@ -1,0 +1,36 @@
+body{ 
+  margin: 0;
+  padding: 0;
+}
+
+.flag{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #eee;
+}
+
+.container{
+  display: grid;
+  grid-template-rows: 20px 20px 20px 20px;
+  width: 70vw;
+  height: 80vh;
+}
+
+.red{
+  background-color: red;
+  opacity: 0.8;
+  grid-row: span 10 
+}
+
+.white{
+  background-color: white;
+  opacity: 0.8;
+}
+
+.black{
+  background-color: black;
+  opacity: 0.8;
+}
+
